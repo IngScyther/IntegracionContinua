@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.vet.VetControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-16T18:40:55" hostname="DESKTOP-ML9N778" time="0.467">
+  <properties/>
+  <testcase name="testShowVetListHtml" classname="org.springframework.samples.petclinic.vet.VetControllerTests" time="0.252"/>
+  <testcase name="testShowResourcesVetList" classname="org.springframework.samples.petclinic.vet.VetControllerTests" time="0.213"/>
+  <system-out><![CDATA[2019-10-16 15:40:54.570  INFO 8240 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.vet.VetControllerTests], using SpringBootContextLoader
+2019-10-16 15:40:54.570  INFO 8240 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-16 15:40:54.570  INFO 8240 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-16 15:40:54.601  INFO 8240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests
+2019-10-16 15:40:54.601  INFO 8240 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-16 15:40:54.601  INFO 8240 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@dabfa77, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@37fa73dc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@15d3bd1a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@706ad270, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2240f648, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4640154f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ef35bf0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68acf90c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4dfba0e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@bd72e7a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f2fc82b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@50c43e5b]
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.1.9.RELEASE
+
+
+2019-10-16 15:40:54.648  INFO 8240 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : Starting VetControllerTests on DESKTOP-ML9N778 with PID 8240 (started by Sed in C:\Users\Sed\Documents\GitHub\spring-petclinic)
+2019-10-16 15:40:54.648  INFO 8240 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : No active profile set, falling back to default profiles: default
+2019-10-16 15:40:55.382  INFO 8240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-16 15:40:55.695  INFO 8240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-10-16 15:40:55.695  INFO 8240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-10-16 15:40:55.710  INFO 8240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2019-10-16 15:40:55.742  INFO 8240 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : Started VetControllerTests in 1.141 seconds (JVM running for 41.083)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
